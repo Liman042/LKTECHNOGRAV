@@ -22,27 +22,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fhc-HM-jHG">
-                                <rect key="frame" x="116" y="376" width="143" height="60"/>
-                                <color key="backgroundColor" red="0.98280864045419258" green="1" blue="0.33997680610597114" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="143" id="6x9-6b-lqi"/>
-                                    <constraint firstAttribute="height" constant="60" id="nhl-97-Jpv"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleColor" systemColor="labelColor"/>
-                                </state>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemGray3Color"/>
                         <constraints>
                             <constraint firstItem="KZp-63-3CM" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="8Jh-0N-RCo"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="KZp-63-3CM" secondAttribute="bottom" constant="606" id="C6p-3Y-fVz"/>
-                            <constraint firstItem="fhc-HM-jHG" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="R10-Gr-1wC"/>
-                            <constraint firstItem="fhc-HM-jHG" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="ZfM-YH-laU"/>
                             <constraint firstItem="KZp-63-3CM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="53" id="ZgF-g7-FDm"/>
                         </constraints>
                     </view>
@@ -53,9 +38,6 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="labelColor">
-            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="systemGray3Color">
             <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
